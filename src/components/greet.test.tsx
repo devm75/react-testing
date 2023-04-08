@@ -1,5 +1,5 @@
 import {render,screen} from '@testing-library/react'
-import {Greet} from './Greet'
+import {Greet} from './greet'
 // To create a virtual DOM we import render method from the react testing library
 test('Greet Renders Correctly!',()=>{
 
