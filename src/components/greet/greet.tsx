@@ -1,7 +1,5 @@
 
-type GreetProps = {
-  name?: String
-}
+import { GreetProps } from "./greet.types"
 
 export const Greet = (props: GreetProps) => {
   const { name } = props
