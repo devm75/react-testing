@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681040160996" clover="3.2.0">
-  <project timestamp="1681040160996" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="6" coveredelements="6" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
-    <file name="greet.tsx" path="/home/mohan/Desktop/react-testing/src/components/greet/greet.tsx">
+<coverage generated="1681040450437" clover="3.2.0">
+  <project timestamp="1681040450437" name="All files">
+    <metrics statements="15" coveredstatements="3" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="1" elements="25" coveredelements="6" complexity="0" loc="15" ncloc="15" packages="2" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="App.tsx" path="/home/mohan/Desktop/react-testing/src/App.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/mohan/Desktop/react-testing/src/index.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.ts" path="/home/mohan/Desktop/react-testing/src/reportWebVitals.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.greet">
       <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="8" count="2" type="stmt"/>
-    </file>
+      <file name="greet.tsx" path="/home/mohan/Desktop/react-testing/src/components/greet/greet.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
